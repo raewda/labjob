@@ -3,7 +3,7 @@ version: '3.9'
 services:
   kotlinapp:
     container_name: webapi
-    image: raewda/kotlin-api
+    image: ghcr.io/raewda/kotlin-api
     build: 
       context: .
       dockerfile: Dockerfile
